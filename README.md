@@ -1,6 +1,17 @@
 ## Distributed System
 * [paxos simple](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Distributed%20System/1-Paxos%E7%AE%97%E6%B3%95.ipynb)
 
+## [Spark]
+* [1-Spark RDD](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/1-RDD-doc.ipynb)
+* [2-Spark DataFrame,DataSet,Sql](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/2-DataFrame%2CDataSet%E5%92%8CSql.ipynb)
+* [Spark tune](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/621cbbc11ae7af7628e0509122d135308dcebf0d/Spark/Spark%20Tune.ipynb)
+* [Spark 数据倾斜](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/621cbbc11ae7af7628e0509122d135308dcebf0d/Spark/Spark%E6%95%B0%E6%8D%AE%E5%80%BE%E6%96%9C.ipynb)
+* [Spark Cluster](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/621cbbc11ae7af7628e0509122d135308dcebf0d/Spark/Cluster%20Mode%20and%20Job%20Scheduling.ipynb)
+* [Spark paper](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/621cbbc11ae7af7628e0509122d135308dcebf0d/Spark/Spark%20Paper.ipynb)
+
+## [Hbase]
+* [Hbase](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/621cbbc11ae7af7628e0509122d135308dcebf0d/Hbase/Hbase.ipynb)
+
 ## Java Parallel Program
 * [parallel model](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Java%20Parallel%20program/1-parallel%20programming%20Model.ipynb)
 * [parallel control and parallel data Structure](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Java%20Parallel%20program/2-parallel%20control%20method.ipynb)
