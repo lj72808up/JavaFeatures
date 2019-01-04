@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
 Demo/.idea
-#**/target
+**/target
 **/.idea
 **/.ipynb_checkpoints
 
