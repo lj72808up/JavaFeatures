@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="nettydemo [file:/Users/liujie32/IdeaProjects/Demo/]" external.linked.project.path="$MODULE_DIR$/../../netty-demo" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../netty-demo/target/scala-2.12/classes" />
+    <output-test url="file://$MODULE_DIR$/../../netty-demo/target/scala-2.12/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../netty-demo">
+      <sourceFolder url="file://$MODULE_DIR$/../../netty-demo/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../netty-demo/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../netty-demo/target/scala-2.12/src_managed/main" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../netty-demo/target/scala-2.12/src_managed/test" isTestSource="true" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../netty-demo/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: io.netty:netty-all:4.1.32.Final:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.8:jar" level="project" />
+  </component>
+</module>
