@@ -1,8 +1,7 @@
 # Compiled class file
 *.class
 Demo/.idea
-Demo/netty-demo/target
-
+**/target
 # Log file
 *.log
 
