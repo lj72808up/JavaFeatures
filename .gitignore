@@ -1,6 +1,7 @@
 # Compiled class file
 *.class
 Demo/.idea
+Demo/netty-demo/target
 
 # Log file
 *.log
