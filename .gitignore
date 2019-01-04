@@ -2,6 +2,8 @@
 *.class
 Demo/.idea
 **/target
+**/.idea
+
 # Log file
 *.log
 
