@@ -3,6 +3,7 @@
 Demo/.idea
 **/target
 **/.idea
+**/.ipynb_checkpoints
 
 # Log file
 *.log
