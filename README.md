@@ -34,14 +34,15 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
 * [parallel control and parallel data Structure](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Java%20Parallel%20program/2-parallel%20control%20method.ipynb)
 
 ## Java NetWork
-* [Java Knock Knock Server Socket](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/1-Java%20Knock%20Knock%20Server%20Socket.ipynb)
+* JAVA BIO
+	- [Java Knock Knock Server Socket](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/1-Java%20Knock%20Knock%20Server%20Socket.ipynb)
 * JAVA NIO
     - [Java nio introduction](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.1-Java%20NIO%E7%AE%80%E4%BB%8B.ipynb)
-    - [nio核心组件](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.2-Channel%E4%B8%8EBuffer.ipynb)
-    - [channel之间的transfer](https://github.com/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.3-Channel%20Transfers.ipynb)
-    - [nio selector](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.4-Selector.ipynb)
-    - [filechannel](https://github.com/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.5%20FileChannel.ipynb)
-    - [SocketChannel和ServerSocketChannel](http://nbviewer.jupyter.org/github/lj72808up/JavaFeaturesae9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.6%20SocketChannel和ServerSocketChannel.ipynb)
+    - [Channel,Buffer,Scatter Read & Gather write](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.2-Channel%E4%B8%8EBuffer.ipynb)
+    - [Filechannel之间的transfer](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.3-Channel%20Transfers.ipynb)
+    - [Selector & SelectionKey](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.4-Selector.ipynb)
+    - [CopyFile through Filechannel](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.5%20FileChannel.ipynb)
+    - [SocketChannel和ServerSocketChannel](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.6%20SocketChannel%E5%92%8CServerSocketChannel.ipynb)
 
 
 ## scala
