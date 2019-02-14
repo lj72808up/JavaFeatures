@@ -10,7 +10,7 @@ lazy val commonSettings = Seq(
 lazy val nettydemo = (project in file("./netty-demo"))
   .settings(commonSettings:_*)
   .settings(
-    name := "nettydemo",
+    name := "netty-demo",
     libraryDependencies  ++= Seq("io.netty" % "netty-all" % "4.1.32.Final")
   ) //.dependsOn(sub2)
 
