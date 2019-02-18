@@ -20,8 +20,14 @@ lazy val jdkthreaddemo = (project in file("./jdk_thread-demo"))
     name := "jdk_thread-demo",
   ) //.dependsOn(sub2)
 
+lazy val swordtoffer = (project in file("./swordtoffer"))
+  .settings(commonSettings:_*)
+  .settings(
+    name := "swordtoffer",
+  ) //.dependsOn(sub2)
+
 lazy val root = (project in file("."))
   .settings(commonSettings:_*)
   .settings(
     name := "root"
-  ).aggregate(nettydemo,jdkthreaddemo)
+  ).aggregate(nettydemo,jdkthreaddemo,swordtoffer)
