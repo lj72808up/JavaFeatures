@@ -14,6 +14,13 @@ lazy val nettydemo = (project in file("./netty-demo"))
     libraryDependencies  ++= Seq("io.netty" % "netty-all" % "4.1.32.Final")
   ) //.dependsOn(sub2)
 
+lazy val rpcnettydemo = (project in file("./rpc-netty-demo"))
+  .settings(commonSettings:_*)
+  .settings(
+    name := "rpc-netty-demo",
+    libraryDependencies  ++= Seq("io.netty" % "netty-all" % "4.1.32.Final")
+  )
+
 lazy val jdkthreaddemo = (project in file("./jdk_thread-demo"))
   .settings(commonSettings:_*)
   .settings(
@@ -30,4 +37,4 @@ lazy val root = (project in file("."))
   .settings(commonSettings:_*)
   .settings(
     name := "root"
-  ).aggregate(nettydemo,jdkthreaddemo,swordtoffer)
+  ).aggregate(nettydemo,jdkthreaddemo,swordtoffer,rpcnettydemo)
