@@ -13,23 +13,54 @@ package traceback;
 public class RouteInArray {
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str)
     {
+        int[] visited = new int[matrix.length];
+
+        boolean flag = false;
         for (int i = 0; i < matrix.length; i++) {
-            if(matrix[i]==str[0]){
-                int row = i / 4;
-                int col = i % 4;
-                return findPath(matrix,row,col,str,1); // 寻找str[1]
+            int row = i / cols;
+            int col = i % cols;
+            if(findPath(matrix,row,col,str,0,rows,cols,visited)){
+                flag = true;
+                break;  // 寻找str[1]
             }
         }
-        return false;
+        return flag;
     }
 
-    private boolean findPath (char[] matrix, int rows, int cols, char[] str, int site){
+    private boolean findPath (char[] matrix, int row, int col, char[] str, int site, int rows, int cols, int[] visited){
+        if(site>str.length-1)
+            return true;
+        char target = str[site];
+        if( row>=0 && row<rows
+                && col>=0 && col<cols
+                && visited[row*cols+col]==0
+                && target==getElem(matrix,row,col,cols)){
+            visited[row*cols+col] = 1;
+            boolean dflag = findPath(matrix,row-1,col,str,site+1,rows,cols,visited);
+            boolean uflag = findPath(matrix,row+1,col,str,site+1,rows,cols,visited);
+            boolean lflag = findPath(matrix,row,col-1,str,site+1,rows,cols,visited);
+            boolean rflag = findPath(matrix,row,col+1,str,site+1,rows,cols,visited);
 
+            boolean find = dflag || uflag || lflag || rflag;
+
+            if (!find)
+                visited[row*cols+col] = 0;
+
+            return find;
+        }else{
+            return false;
+        }
     }
 
-    private char getElem(char[] matrix, int row, int col){
-        if(row>2 || row<0 || col>3 || col<0)
-            return '\0';
-        return matrix[row*4+col];
+    private char getElem(char[] matrix, int row, int col, int cols){ // 3行4列为例
+        return matrix[row*cols+col];
+    }
+
+
+    public static void main(String[] args) {
+        RouteInArray inArray = new RouteInArray();
+        char[] matrix = "A".toCharArray();
+        char[] strs = "A".toCharArray();
+        System.out.println(inArray.hasPath(matrix,1,1,strs));
     }
 }
