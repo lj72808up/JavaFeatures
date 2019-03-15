@@ -1,6 +1,7 @@
 ```bash
 export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
 ```
+[hive常用参数](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/hive%E5%B8%B8%E7%94%A8%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE.ipynb)
 ## Distributed system theory
 * [paxos simple](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Distributed%20System/1-Paxos%E7%AE%97%E6%B3%95.ipynb)
 
