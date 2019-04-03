@@ -46,7 +46,7 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
     - [SocketChannel和ServerSocketChannel](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.6%20SocketChannel%E5%92%8CServerSocketChannel.ipynb)
 
 ## Java GC
-* [oracle - Java Garbage Collection](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/GC/oracle%20-%20Java%20Garbage%20Collection.ipynb)
+* [oracle - Java Garbage Collection](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/GC/oracle%20-%20Java%20Garbage%20Collection2.ipynb)
 
 ## scala
 * [basic operate](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Scala/1-scala%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E4%B8%8E%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.ipynb)
