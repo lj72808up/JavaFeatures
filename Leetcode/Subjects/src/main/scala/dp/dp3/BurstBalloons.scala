@@ -36,9 +36,9 @@ package dp.dp3
  *
  *
  */
-object Solution {
+object MaxCoins {
   def maxCoins(nums: Array[Int]): Int = {
-
+1
   }
 }
 

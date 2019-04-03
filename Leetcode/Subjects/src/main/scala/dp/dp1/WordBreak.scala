@@ -44,9 +44,9 @@ package dp.dp1
  *
  *
  */
-object Solution {
+object WordBreak {
   def wordBreak(s: String, wordDict: List[String]): Boolean = {
-
+true
   }
 }
 

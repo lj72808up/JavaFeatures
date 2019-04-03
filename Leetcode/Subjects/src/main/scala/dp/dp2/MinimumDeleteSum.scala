@@ -44,9 +44,9 @@ package dp.dp2
  *
  *
  */
-object Solution {
+object MinimumDeleteSum {
   def minimumDeleteSum(s1: String, s2: String): Int = {
-
+1
   }
 }
 

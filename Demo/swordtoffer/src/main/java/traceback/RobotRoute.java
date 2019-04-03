@@ -9,17 +9,19 @@ package traceback;
 public class RobotRoute {
     public int movingCount(int threshold, int rows, int cols) {
         int[] visited = new int[rows*cols];
-        return countCore(threshold,rows,cols,0,0);
+        return countCore(threshold,rows,cols,0,0,visited);
     }
 
-    private int countCore(int threshold, int rows, int cols, int row, int col){
+    private int countCore(int threshold, int rows, int cols, int row, int col,int[] visited){
         if (getDigitSum(row)+getDigitSum(col)>threshold
-                || row>rows-1 || col>cols-1) {
+                || row>rows-1 || col>cols-1
+                || visited[row*cols+col]==1) {
             return 0;
         }
 
-        int up = countCore(threshold,rows,cols,row+1,col);
-        int right = countCore(threshold,rows,cols,row,col+1);
+        int up = countCore(threshold,rows,cols,row+1,col,visited);
+        int right = countCore(threshold,rows,cols,row,col+1,visited);
+        visited[row*cols+col]=1;
         return up+right+1;
     }
 
@@ -30,9 +32,5 @@ public class RobotRoute {
             number = number/10 ;
         }
         return sum;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new RobotRoute().movingCount(2,2,2));
     }
 }

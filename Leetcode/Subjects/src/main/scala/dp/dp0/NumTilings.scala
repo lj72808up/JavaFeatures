@@ -44,9 +44,9 @@ package dp.dp0
  *
  *
  */
-object Solution {
+object NumTilings {
   def numTilings(N: Int): Int = {
-
+1
   }
 }
 

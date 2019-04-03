@@ -40,9 +40,9 @@ package dp.dp3
  * 提示: 输入字符串的长度不会超过 100。
  *
  */
-object Solution {
+object StrangePrinter {
   def strangePrinter(s: String): Int = {
-
+1
   }
 }
 

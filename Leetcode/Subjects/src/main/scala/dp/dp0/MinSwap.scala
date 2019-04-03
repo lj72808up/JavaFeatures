@@ -39,8 +39,8 @@ package dp.dp0
  *
  *
  */
-object Solution {
+object WordBreak {
   def minSwap(A: Array[Int], B: Array[Int]): Int = {
-
+    1
   }
 }

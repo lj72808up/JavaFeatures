@@ -44,9 +44,9 @@
  *
  *
  */
-object Solution {
+object MinDistance {
   def minDistance(word1: String, word2: String): Int = {
-
+1
   }
 }
 

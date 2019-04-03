@@ -43,8 +43,8 @@ package dp.dp0
  *
  *
  */
-object Solution {
+object MinCostClimbingStairs {
   def minCostClimbingStairs(cost: Array[Int]): Int = {
-
+1
   }
 }

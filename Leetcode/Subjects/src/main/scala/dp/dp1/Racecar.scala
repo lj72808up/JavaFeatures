@@ -51,9 +51,9 @@ package dp.dp1
  *
  *
  */
-object Solution {
+object Racecar {
   def racecar(target: Int): Int = {
-
+1
   }
 }
 

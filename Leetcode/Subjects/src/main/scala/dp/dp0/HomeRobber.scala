@@ -36,6 +36,6 @@ package dp.dp0
  */
 class HomeRobber {
     def rob(nums: Array[Int]): Int = {
-
+1
     }
 }
