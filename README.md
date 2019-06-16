@@ -4,8 +4,25 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
 [hive常用参数](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/hive%E5%B8%B8%E7%94%A8%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE.ipynb)
 ## Distributed system theory
 * [paxos simple](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Distributed%20System/1-Paxos%E7%AE%97%E6%B3%95.ipynb)
+* [CAP理论与分布式一致性](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Distributed%20System/2-%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%80%E8%87%B4%E6%80%A7.ipynb)
 
-## Linux性能优化
+## Flink
+* [1-notation](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Flink/1-notion.ipynb)
+* [2-Dataset api](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Flink/2-Dataset%20api.ipynb)
+
+## Leetcode
+* 动态规划
+    * [6种动态规划编程模板](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Leetcode/DP/1-%E5%85%AD%E7%A7%8DDP.ipynb)
+    * [背包问题](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Leetcode/DP/2-%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98.ipynb)
+* String
+    * [DFA自动机](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Leetcode/Strings/DFA.ipynb)
+
+## Java GC
+* [oracle - Java Garbage Collection](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/GC/oracle%20-%20Java%20Garbage%20Collection2.ipynb)
+* jvm诊断工具
+    * [jmc分析jfr](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/GC/Java%20Diagnostic%20Tools/1-jfr.ipynb)
+    * [jcmd](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/GC/Java%20Diagnostic%20Tools/2-jcmd.ipynb)
+    * [nmt本地内存跟踪](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/GC/Java%20Diagnostic%20Tools/3-nmt.ipynb)
 
 ## Spark
 * [1-Spark RDD](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/1-RDD-doc.ipynb)
@@ -16,9 +33,11 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
 * [Spark统一内存管理](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Spark/Spark%E7%BB%9F%E4%B8%80%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.ipynb)
 * [Spark join的3种实现](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Spark/Spark%20join%E7%9A%843%E7%A7%8D%E5%AE%9E%E7%8E%B0.ipynb)
 * spark tune
-    - [开发调优](https://github.com/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Spark/Spark%20Tune/1-%20%E5%BC%80%E5%8F%91%E8%B0%83%E4%BC%98.ipynb)
+    - [开发调优](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Spark/Spark%20Tune/1-%20%E5%BC%80%E5%8F%91%E8%B0%83%E4%BC%98.ipynb)
     - [spark submit脚本](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Spark/Spark%20Tune/2-submit%E8%84%9A%E6%9C%AC%E5%8F%82%E6%95%B0%E8%B5%84%E6%BA%90%E8%B0%83%E4%BC%98.ipynb)
     - [shuffle调优](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Spark/Spark%20Tune/4-shuffle%E8%B0%83%E4%BC%98.ipynb)
+* [spark的orc](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/spark-hive%20orc.ipynb)
+
 
 ## Hbase
 - [why hbase?](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Hbase/1-Hbase%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.ipynb)
@@ -29,6 +48,11 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
 ## Yarn
 * [yarn component](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Yarn/1-Yarn%E6%9E%B6%E6%9E%84.ipynb)
 * [yarn scheduler](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Yarn/2-Yarn%E8%B0%83%E5%BA%A6.ipynb)
+* 公平调度器
+    * [fair scheduler调度策略](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Yarn/3%20-%20Fair%20Scheduler%20%E8%B0%83%E5%BA%A6%E5%99%A8.ipynb)
+    * [fair scheduler抢占机制](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Yarn/3.1-fair%20scheduler%20preemption.ipynb)
+
+## Linux性能优化
 
 ## Java Parallel Program
 * [parallel model](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Java%20Parallel%20program/1-parallel%20programming%20Model.ipynb)
@@ -45,8 +69,7 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
     - [CopyFile through Filechannel](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.5%20FileChannel.ipynb)
     - [SocketChannel和ServerSocketChannel](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.6%20SocketChannel%E5%92%8CServerSocketChannel.ipynb)
 
-## Java GC
-* [oracle - Java Garbage Collection](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/GC/oracle%20-%20Java%20Garbage%20Collection2.ipynb)
+
 
 ## scala
 * [basic operate](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Scala/1-scala%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E4%B8%8E%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.ipynb)
