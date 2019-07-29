@@ -4,8 +4,9 @@ package array;
  * 题目描述
  * 在一个长度为n的数组里的所有数字都在0到n-1的范围内。 数组中某些数字是重复的，但不知道有几个数字是重复的。也不知道每个数字重复几次。请找出数组中任意一个重复的数字。
  * 例如，如果输入长度为7的数组{2,3,1,0,2,5,3}，那么对应的输出是第一个重复的数字2。
+ *
  */
-public class DuplicateSolution {
+public class DuplicateSolution_3 {
     // Parameters:
     //    numbers:     an array of integers
     //    length:      the length of array numbers
@@ -31,3 +32,8 @@ public class DuplicateSolution {
         return false;
     }
 }
+
+/**
+ * 思路: 由于数组长度为n, 且元素都是0-n-1的值; 所以可以先遍历数组, 看位置i上的数字是否也是i;
+ *  如果不是, 就把i位置上的数字置换到相应的位置上; 此时若发现这2个数字相同, 则找到一个重复值; 如果这2个数字不同, 则要持续置换, 直到这轮迭代遇到的数字都处于应有的位置上
+ */

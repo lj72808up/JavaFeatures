@@ -33,8 +33,15 @@ lazy val swordtoffer = (project in file("./swordtoffer"))
     name := "swordtoffer",
   ) //.dependsOn(sub2)
 
+lazy val collectionDemo = (project in file("./collection-demo"))
+  .settings(commonSettings:_*)
+  .settings(
+    name := "collection-demo",
+  ) //.dependsOn(sub2)
+
+
 lazy val root = (project in file("."))
   .settings(commonSettings:_*)
   .settings(
     name := "root"
-  ).aggregate(nettydemo,jdkthreaddemo,swordtoffer,rpcnettydemo)
+  ).aggregate(nettydemo,jdkthreaddemo,swordtoffer,rpcnettydemo,collectionDemo)
