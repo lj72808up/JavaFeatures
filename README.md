@@ -33,10 +33,10 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
     * [mlib](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/4-Spark%20MLib.ipynb)
     * [GraphFrame](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/3-GraphFrame.ipynb)
 * spark sql
-    * [Spark sql优化器-CataLyst(CBO)](https://github.com/lj72808up/JavaFeatures/blob/master/Spark/Spark%20Sql%E4%BC%98%E5%8C%96%E5%99%A8%E5%BC%95%E6%93%8E-CataLyst(CBO).ipynb)
+    * [Spark sql优化器-CataLyst(CBO)](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20Sql%E4%BC%98%E5%8C%96%E5%99%A8%E5%BC%95%E6%93%8E-CataLyst%28CBO%29.ipynb)
     * [Spark Sql三种join](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20join%E7%9A%843%E7%A7%8D%E5%AE%9E%E7%8E%B0.ipynb)
     * [数据倾斜的处理方式](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%E6%95%B0%E6%8D%AE%E5%80%BE%E6%96%9C.ipynb)
-* [spark统一内存管理](https://github.com/lj72808up/JavaFeatures/blob/master/Spark/Spark%E7%BB%9F%E4%B8%80%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.ipynb)
+* [spark统一内存管理](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%E7%BB%9F%E4%B8%80%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.ipynb)
 * [Cluster Mode and Job Scheduling](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Cluster%20Mode%20and%20Job%20Scheduling.ipynb)
 
 
