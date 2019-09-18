@@ -1,4 +1,4 @@
-package com.test;
+package bio;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,7 +16,6 @@ public class ServerHandler implements Runnable{
     public ServerHandler(Socket socket) {
         this.socket = socket;
     }
-    @Override
     public void run() {
         BufferedReader in = null;
         PrintWriter out = null;
