@@ -70,12 +70,12 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
 * JAVA BIO
 	- [Java Knock Knock Server Socket](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/1-Java%20Knock%20Knock%20Server%20Socket.ipynb)
 * JAVA NIO
-    - [Java nio introduction](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.1-Java%20NIO%E7%AE%80%E4%BB%8B.ipynb)
     - [Channel,Buffer,Scatter Read & Gather write](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.2-Channel%E4%B8%8EBuffer.ipynb)
     - [Filechannel之间的transfer](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.3-Channel%20Transfers.ipynb)
     - [Selector & SelectionKey](http://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.4-Selector.ipynb)
-    - [CopyFile through Filechannel](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.5%20FileChannel.ipynb)
+    - [使用Filechannel拷贝文件](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.5%20FileChannel.ipynb)
     - [SocketChannel和ServerSocketChannel](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.6%20SocketChannel%E5%92%8CServerSocketChannel.ipynb)
+    - [完整的NIO服务](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.7%20Non-blocking%20Sever.ipynb)
 
 
 ## 计算机网络
