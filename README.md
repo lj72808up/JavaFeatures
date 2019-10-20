@@ -36,14 +36,10 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
     * [Spark sql优化器-CataLyst(CBO)](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20Sql%E4%BC%98%E5%8C%96%E5%99%A8%E5%BC%95%E6%93%8E-CataLyst%28CBO%29.ipynb)
     * [Spark Sql三种join](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20join%E7%9A%843%E7%A7%8D%E5%AE%9E%E7%8E%B0.ipynb)
     * [数据倾斜的处理方式](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%E6%95%B0%E6%8D%AE%E5%80%BE%E6%96%9C.ipynb)
-* spark tune
-    * [开发调优](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20Tune/1-%20%E5%BC%80%E5%8F%91%E8%B0%83%E4%BC%98.ipynb)
-    * [脚本参数调优](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20Tune/2-submit%E8%84%9A%E6%9C%AC%E5%8F%82%E6%95%B0%E8%B5%84%E6%BA%90%E8%B0%83%E4%BC%98.ipynb)
-    * [shuffle参数调优](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20Tune/4-shuffle%E8%B0%83%E4%BC%98.ipynb)
-    * [spark资源抢占](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20Tune/spark资源抢占.ipynb)
 * [spark统一内存管理](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%E7%BB%9F%E4%B8%80%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.ipynb)
 * [Cluster Mode and Job Scheduling](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/Cluster%20Mode%20and%20Job%20Scheduling.ipynb)
-
+* [spark-hive ORC](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/spark-hive%20orc.ipynb)
+* [spark shuffle](https://nbviewer.jupyter.org/github/lj72808up/JavaFeatures/blob/master/Spark/spark%20shuffle%E7%90%86%E8%A7%A3.ipynb)
 
 ## Hadoop
 * HDFS
