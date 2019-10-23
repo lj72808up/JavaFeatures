@@ -1,29 +1,30 @@
 ```bash
 export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
 ```
-[hive常用参数](https://github/lj72808up/JavaFeatures/blob/master/hive%E5%B8%B8%E7%94%A8%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE.ipynb)
+[hive常用参数](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/hive%E5%B8%B8%E7%94%A8%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE.ipynb)  
 ## Distributed system theory
-* [CAP理论](https://github/lj72808up/JavaFeatures/blob/master/Distributed%20System/2-CAP%E7%90%86%E8%AE%BA.ipynb)
-* [Raft一致性](https://github/lj72808up/JavaFeatures/blob/master/Distributed%20System/3-raft%E4%B8%80%E8%87%B4%E6%80%A7.ipynb)
-* [PaxOS一致性](https://github/lj72808up/JavaFeatures/blob/master/Distributed%20System/1-Paxos%E7%AE%97%E6%B3%95.ipynb)
+* [1-CAP理论](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Distributed%20System/2-CAP%E7%90%86%E8%AE%BA.ipynb)
+* [2-Raft一致性](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Distributed%20System/3-raft%E4%B8%80%E8%87%B4%E6%80%A7.ipynb)
+* [3-PaxOS一致性](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Distributed%20System/1-Paxos%E7%AE%97%E6%B3%95.ipynb)
+* [4-分布式缓存下的数据分布算法](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Distributed%20System/4-%E5%88%86%E5%B8%83%E5%BC%8F%E7%BC%93%E5%AD%98%E4%B8%8B%E7%9A%84%E6%95%B0%E6%8D%AE%E5%88%86%E5%B8%83%E7%AE%97%E6%B3%95.ipynb)
 
-## Flink
-* [1-notation](https://github/lj72808up/JavaFeatures/blob/master/Flink/1-notion.ipynb)
-* [2-Dataset api](https://github/lj72808up/JavaFeatures/blob/master/Flink/2-Dataset%20api.ipynb)
-
-## Leetcode
-* 动态规划
-    * [6种动态规划编程模板](https://github/lj72808up/JavaFeatures/blob/master/Leetcode/DP/1-%E5%85%AD%E7%A7%8DDP.ipynb)
-    * [背包问题](https://github/lj72808up/JavaFeatures/blob/master/Leetcode/DP/2-%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98.ipynb)
-* String
-    * [DFA自动机](https://github/lj72808up/JavaFeatures/blob/master/Leetcode/Strings/DFA.ipynb)
 
 ## Java GC
-* [oracle - Java Garbage Collection](https://github/lj72808up/JavaFeatures/blob/master/GC/oracle%20-%20Java%20Garbage%20Collection2.ipynb)
+* [oracle-GC方法论](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/oracle%20-%20Java%20GC%E6%96%B9%E6%B3%95%E8%AE%BA.ipynb)
+* [线上问题debug的一般步骤](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E7%BA%BF%E4%B8%8A%E9%97%AE%E9%A2%98debug%E7%9A%84%E4%B8%80%E8%88%AC%E6%AD%A5%E9%AA%A4.ipynb)
 * jvm诊断工具
-    * [jmc分析jfr](https://github/lj72808up/JavaFeatures/blob/master/GC/Java%20Diagnostic%20Tools/1-jfr.ipynb)
-    * [jcmd](https://github/lj72808up/JavaFeatures/blob/master/GC/Java%20Diagnostic%20Tools/2-jcmd.ipynb)
-    * [nmt本地内存跟踪](https://github/lj72808up/JavaFeatures/blob/master/GC/Java%20Diagnostic%20Tools/3-nmt.ipynb)
+    * [1-jcmd工具](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/Java%20Diagnostic%20Tools/1-jcmd.ipynb)
+    * [2-使用jmc分析jfr日志](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/Java%20Diagnostic%20Tools/2-%E4%BD%BF%E7%94%A8jmc%E5%88%86%E6%9E%90jfr.ipynb)
+    * [nmt本地内存跟踪](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/Java%20Diagnostic%20Tools/3-nmt.ipynb)
+* 深入理解Java虚拟机
+    * [2-Java内存区域划分](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/2-Java%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F%E4%B8%8EOutOfMemory.ipynb)
+    * [3-GC收集器与内存分配策略](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/3-GC%E6%94%B6%E9%9B%86%E5%99%A8%E4%B8%8E%E5%86%85%E5%AD%98%E5%88%86%E9%85%8D%E7%AD%96%E7%95%A5.ipynb)
+    * [4-jvm监控与诊断工具](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/4-jvm%E7%9B%91%E6%8E%A7%E4%B8%8E%E8%AF%8A%E6%96%AD%E5%B7%A5%E5%85%B7.ipynb)
+    * [7-虚拟机类加载机制](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/7-%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6.ipynb)
+    * [12-Java内存模型](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/12-Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.ipynb)
+    * [13-线程](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/13-%E7%BA%BF%E7%A8%8B.ipynb)
+    * [13-[附录]JVM的小知识](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/13-%5B%E9%99%84%E5%BD%95%5DJVM%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86.ipynb)
+
 
 ## Spark
 * spark组件
@@ -51,10 +52,10 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
     * [fair scheduler preemption](https://github/lj72808up/JavaFeatures/blob/master/hadoop/Yarn/4-FairScheduler%E7%9A%84%E6%8A%A2%E5%8D%A0%E6%9C%BA%E5%88%B6.ipynb)
 
 ## Hbase
-- [why hbase?](http://github/lj72808up/JavaFeatures/blob/master/5beee9f776165a711d863e26334c9461772a8fc5/Hbase/1-Hbase%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.ipynb)
-- [hbase's dietributed infrastructure](http://github/lj72808up/JavaFeatures/blob/master/5beee9f776165a711d863e26334c9461772a8fc5/Hbase/2-Hbase%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.ipynb)
-- [Rowkey design](http://github/lj72808up/JavaFeatures/blob/master/5beee9f776165a711d863e26334c9461772a8fc5/Hbase/3-rowkey%E8%AE%BE%E8%AE%A1.ipynb)
-- [Region Splitting and Merging](http://github/lj72808up/JavaFeatures/blob/master/5beee9f776165a711d863e26334c9461772a8fc5/Hbase/4-Region%20Splitting%20and%20Merging.ipynb)
+- [1-Hbase基本概念](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Hbase/1-Hbase%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.ipynb)
+- [2-Hbase系统架构](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Hbase/2-Hbase%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.ipynb)
+- [3-rowkey设计](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Hbase/3-rowkey%E8%AE%BE%E8%AE%A1.ipynb)
+- [4-Region Splitting and Merging](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Hbase/4-Region%20Splitting%20and%20Merging.ipynb)
 
 ## Linux性能优化
 
@@ -80,7 +81,7 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
 
 ## 计算机网络
 * 图解TCP/IP
-    * [TCP协议](https://github/lj72808up/JavaFeatures/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%9B%BE%E8%A7%A3TCP/6.1-TCP.ipynb)
+    * [6-TCP协议](https://github.com/lj72808up/JavaFeatures/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%9B%BE%E8%A7%A3TCP/6.1-TCP.ipynb)
 
 ## scala
 * [basic operate](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Scala/1-scala%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E4%B8%8E%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.ipynb)
