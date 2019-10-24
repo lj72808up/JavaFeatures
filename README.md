@@ -1,6 +1,8 @@
 ```bash
-export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
+export SBT_OPTS="$SBT_OPTS -DsocksProxyHost=127.0.0.1 -DsocksProxyPort=9100"
+export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=9100"
 ```
+
 [hive常用参数](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/hive%E5%B8%B8%E7%94%A8%E5%8F%82%E6%95%B0%E9%85%8D%E7%BD%AE.ipynb)  
 ## Distributed system theory
 * [1-CAP理论](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Distributed%20System/2-CAP%E7%90%86%E8%AE%BA.ipynb)
@@ -23,33 +25,53 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
     * [7-虚拟机类加载机制](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/7-%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6.ipynb)
     * [12-Java内存模型](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/12-Java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.ipynb)
     * [13-线程](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/13-%E7%BA%BF%E7%A8%8B.ipynb)
-    * [13-[附录]JVM的小知识](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/13-%5B%E9%99%84%E5%BD%95%5DJVM%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86.ipynb)
+    * [13-<附录>JVM的小知识](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/GC/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Java%E8%99%9A%E6%8B%9F%E6%9C%BA/13-%5B%E9%99%84%E5%BD%95%5DJVM%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86.ipynb)
 
+## Java Parallel Program
+* **Java并发编程实践**
+    * [4-并发基础模块](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20Parallel%20program/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/4-%E5%B9%B6%E5%8F%91%E5%9F%BA%E7%A1%80%E6%A8%A1%E5%9D%97.ipynb)
+    * [5-并发工具类](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20Parallel%20program/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/5-%E5%B9%B6%E5%8F%91%E5%B7%A5%E5%85%B7%E7%B1%BB.ipynb)
+    * [7-任务的1取消与关闭](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20Parallel%20program/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/7-%E5%8F%96%E6%B6%88%E4%B8%8E%E5%85%B3%E9%97%AD.ipynb)
+    * [14-条件队列与AQS](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20Parallel%20program/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/14-%E6%9D%A1%E4%BB%B6%E7%AD%89%E5%BE%85-Condition%E5%92%8CAQS.ipynb)
+    * [15-原子变量和非阻塞同步机制](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20Parallel%20program/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/15-%E5%8E%9F%E5%AD%90%E5%8F%98%E9%87%8F%E5%92%8C%E9%9D%9E%E9%98%BB%E5%A1%9E%E5%90%8C%E6%AD%A5%E6%9C%BA%E5%88%B6.ipynb)
+
+## Java网络编程
+* [Linux5种IO模型](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/1-Linux5%E7%A7%8DIO%E6%A8%A1%E5%9E%8B.ipynb)
+* [JAVA BIO](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/1-Java%20Knock%20Knock%20Server%20Socket.ipynb)
+* JAVA NIO
+    - [1-Channel,Buffer概念与分散读聚合写](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.2-Channel%E4%B8%8EBuffer.ipynb)
+    - [2-Filechannel与高效transfer](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.3-Channel%20Transfers.ipynb)
+    - [3-Selector](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.4-Selector.ipynb)
+    - [4-SocketChannel和ServerSocketChannel](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.6%20SocketChannel%E5%92%8CServerSocketChannel.ipynb)
+    - [5-NIO服务](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.7%20Non-blocking%20Sever.ipynb)
+* Java AIO
+    * [1-异步的FileChannel](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/3.2-AIO%28AsynchronousFIleChannel%29.ipynb)
+
+## Java Topic
+* [1-动态规划](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20Topic/1-%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86.ipynb)
+* [2-关于常量](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20Topic/2-%E5%85%B3%E4%BA%8E%E5%B8%B8%E9%87%8F%28String%29.ipynb)
 
 ## Spark
-* spark组件
-    * [RDD](https://github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/1-RDD-doc.ipynb)
-    * [DataFrame](https://github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/2-DataFrame%2CDataSet%E5%92%8CSql.ipynb)
-    * [Graphx](https://github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/5-graphx.ipynb)
-    * [mlib](https://github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/4-Spark%20MLib.ipynb)
-    * [GraphFrame](https://github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/3-GraphFrame.ipynb)
-* spark sql
-    * [Spark sql优化器-CataLyst(CBO)](https://github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20Sql%E4%BC%98%E5%8C%96%E5%99%A8%E5%BC%95%E6%93%8E-CataLyst%28CBO%29.ipynb)
-    * [Spark Sql三种join](https://github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20join%E7%9A%843%E7%A7%8D%E5%AE%9E%E7%8E%B0.ipynb)
-    * [数据倾斜的处理方式](https://github/lj72808up/JavaFeatures/blob/master/Spark/Spark%E6%95%B0%E6%8D%AE%E5%80%BE%E6%96%9C.ipynb)
-* [spark统一内存管理](https://github/lj72808up/JavaFeatures/blob/master/Spark/Spark%E7%BB%9F%E4%B8%80%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.ipynb)
-* [Cluster Mode and Job Scheduling](https://github/lj72808up/JavaFeatures/blob/master/Spark/Cluster%20Mode%20and%20Job%20Scheduling.ipynb)
-* [spark-hive ORC](https://github/lj72808up/JavaFeatures/blob/master/Spark/spark-hive%20orc.ipynb)
-* [spark shuffle](https://github/lj72808up/JavaFeatures/blob/master/Spark/spark%20shuffle%E7%90%86%E8%A7%A3.ipynb)
+* [CataLyst与CBO优化)](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20Sql%E4%BC%98%E5%8C%96%E5%99%A8%E5%BC%95%E6%93%8E-CataLyst%28CBO%29.ipynb)
+* [Spark的三个join](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%20join%E7%9A%843%E7%A7%8D%E5%AE%9E%E7%8E%B0.ipynb)
+* [Spark2.x后的统一内存管理](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/Spark%E7%BB%9F%E4%B8%80%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86.ipynb)
+* [Spark shuffle-read,write,oom](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/spark%20shuffle%E7%90%86%E8%A7%A3.ipynb)
+* [Spark-hive 使用ORC文件](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/spark-hive%20orc.ipynb)
+* [Spark任务未获得全部资源的快速启动和屏蔽资源抢占](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/spark%E8%B5%84%E6%BA%90%E6%8A%A2%E5%8D%A0.ipynb)
+* [Spark面试题](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/spark%E9%9D%A2%E8%AF%95%E9%A2%98.ipynb)
+* **Spark组件**
+    * [1-RDD](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/1-RDD-doc.ipynb)
+    * [2-DataFrame与DataSet](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/2-DataFrame%2CDataSet%E5%92%8CSql.ipynb)
+    * [3-Graphx](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Spark/spark%E7%BB%84%E4%BB%B6/5-graphx.ipynb)
 
 ## Hadoop
 * HDFS
-    * [NameNode HA](https://github/lj72808up/JavaFeatures/blob/master/hadoop/Hdfs/NameNode%20HA.ipynb)
+    * [NameNode HA](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/hadoop/Hdfs/NameNode%20HA.ipynb)
 * Yarn
-    * [yarn基本架构](https://github/lj72808up/JavaFeatures/blob/master/hadoop/Yarn/1-Yarn%E6%9E%B6%E6%9E%84.ipynb)
-    * [yarn资源调度](https://github.com/lj72808up/JavaFeatures/blob/master/hadoop/Yarn/2-Yarn%E8%B0%83%E5%BA%A6.ipynb)
-    * [fair scheduler调度策略](https://github/lj72808up/JavaFeatures/blob/master/hadoop/Yarn/3-FairScheduler%E8%B0%83%E5%BA%A6%E5%99%A8.ipynb)
-    * [fair scheduler preemption](https://github/lj72808up/JavaFeatures/blob/master/hadoop/Yarn/4-FairScheduler%E7%9A%84%E6%8A%A2%E5%8D%A0%E6%9C%BA%E5%88%B6.ipynb)
+    * [1-yarn基本架构](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/hadoop/Yarn/1-Yarn%E6%9E%B6%E6%9E%84.ipynb)
+    * [2-yarn资源调度](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/hadoop/Yarn/2-Yarn%E8%B0%83%E5%BA%A6.ipynb)
+    * [3-fair scheduler调度的资源分配](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/hadoop/Yarn/3-FairScheduler%E8%B0%83%E5%BA%A6%E5%99%A8.ipynb)
+    * [4-fair scheduler preemption](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/hadoop/Yarn/4-FairScheduler%E7%9A%84%E6%8A%A2%E5%8D%A0%E6%9C%BA%E5%88%B6.ipynb)
 
 ## Hbase
 - [1-Hbase基本概念](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Hbase/1-Hbase%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.ipynb)
@@ -59,29 +81,20 @@ export MAVEN_OPTS="-DsocksProxyHost=127.0.0.1 -DsocksProxyPort=8085"
 
 ## Linux性能优化
 
-## Java Parallel Program
-* [parallel model](http://github/lj72808up/JavaFeatures/blob/master/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Java%20Parallel%20program/1-parallel%20programming%20Model.ipynb)
-* [parallel control and parallel data Structure](http://github/lj72808up/JavaFeatures/blob/master/6a4009c8ea14bcbfc12995edf5450b1e01e86b74/Java%20Parallel%20program/2-parallel%20control%20method.ipynb)
-
-## Java NetWork
-* JAVA BIO
-	- [Java Knock Knock Server Socket](http://github/lj72808up/JavaFeatures/blob/master/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/1-Java%20Knock%20Knock%20Server%20Socket.ipynb)
-* JAVA NIO
-    - [Channel,Buffer,Scatter Read & Gather write](http://github/lj72808up/JavaFeatures/blob/master/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.2-Channel%E4%B8%8EBuffer.ipynb)
-    - [Filechannel之间的transfer](https://github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.3-Channel%20Transfers.ipynb)
-    - [Selector & SelectionKey](http://github/lj72808up/JavaFeatures/blob/master/5beee9f776165a711d863e26334c9461772a8fc5/Java%20NetWork/2.4-Selector.ipynb)
-    - [使用Filechannel拷贝文件](https://github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.5%20FileChannel.ipynb)
-    - [SocketChannel和ServerSocketChannel](https://github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.6%20SocketChannel%E5%92%8CServerSocketChannel.ipynb)
-    - [完整的NIO服务](https://github/lj72808up/JavaFeatures/blob/master/Java%20NetWork/2.7%20Non-blocking%20Sever.ipynb)
-
-## Java Topic
-* [1-动态规划](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20Topic/1-%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86.ipynb)
-* [2-关于常量](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Java%20Topic/2-%E5%85%B3%E4%BA%8E%E5%B8%B8%E9%87%8F%28String%29.ipynb)
-
+## 设计模式
+* **创建模式**
+    * [1-单例模式](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%88%9B%E5%BB%BA%E6%A8%A1%E5%BC%8F/1-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.ipynb)
+    * [2-工厂模式](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%88%9B%E5%BB%BA%E6%A8%A1%E5%BC%8F/2-%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.ipynb)
+    * [3-建造者模式](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%88%9B%E5%BB%BA%E6%A8%A1%E5%BC%8F/3-%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.ipynb)
 
 ## 计算机网络
 * 图解TCP/IP
-    * [6-TCP协议](https://github.com/lj72808up/JavaFeatures/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%9B%BE%E8%A7%A3TCP/6.1-TCP.ipynb)
+    * [6-TCP协议](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E5%9B%BE%E8%A7%A3TCP/6.1-TCP.ipynb)
+
+## 计算机软硬件接口
+* **5-存储器的层次结构**
+    * [5.3-cache的基本原理](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E7%A1%AC%E4%BB%B6%E6%8E%A5%E5%8F%A3/5-%E5%AD%98%E5%82%A8%E5%99%A8%E7%9A%84%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84/5.3-cache%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86.ipynb)
+    * [5.7-虚拟存储器](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BD%AF%E7%A1%AC%E4%BB%B6%E6%8E%A5%E5%8F%A3/5-%E5%AD%98%E5%82%A8%E5%99%A8%E7%9A%84%E5%B1%82%E6%AC%A1%E7%BB%93%E6%9E%84/5.7-%E8%99%9A%E6%8B%9F%E5%AD%98%E5%82%A8%E5%99%A8.ipynb)
 
 ## scala
 * [basic operate](http://149.129.33.202:5000/github/lj72808up/JavaFeatures/blob/master/Scala/1-scala%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%E4%B8%8E%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.ipynb)
